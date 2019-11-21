@@ -1,0 +1,6 @@
+"0","num_words <- 1024 "
+"0",""
+"0","# prepare tokenizers"
+"0","tokenizer <- text_tokenizer(num_words = num_words,"
+"0","                            lower = TRUE) %>% "
+"0","  fit_text_tokenizer(data$text_clean)"

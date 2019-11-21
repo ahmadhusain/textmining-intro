@@ -1,0 +1,8 @@
+"0","""@VirginAmerica I'm #elevategold for a good reason: you rock!!"" %>% "
+"0","  str_remove_all(pattern = mention) %>%"
+"0","  str_remove_all(pattern = hashtag) %>% "
+"0","  str_squish()"
+"1","[1]"
+"1"," ""I'm for a good reason: you rock!!"""
+"1","
+"

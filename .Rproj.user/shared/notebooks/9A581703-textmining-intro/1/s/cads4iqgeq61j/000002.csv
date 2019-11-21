@@ -1,0 +1,3 @@
+"0","data_test_pred <- model %>%"
+"0","  predict_classes(data_test_x) %>%"
+"0","  as.vector()"

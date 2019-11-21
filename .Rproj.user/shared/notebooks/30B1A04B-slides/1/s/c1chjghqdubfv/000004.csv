@@ -1,0 +1,6 @@
+"0","data %>% "
+"0","  filter(airline_sentiment %in% c(""positive"", ""negative"")) %>% "
+"0","  unnest_tokens(word, text_clean) %>% "
+"0","  count(word, sort = TRUE) %>% "
+"0","  filter(!(word %in% stopwords::stopwords(language = ""en""))) %>% "
+"0","  with(wordcloud::wordcloud(word, n, random.order = F, max.words = 100))"

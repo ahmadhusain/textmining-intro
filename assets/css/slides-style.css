@@ -1,0 +1,48 @@
+.reveal section img {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.reveal h1.title {
+  font-size: 1.618em;
+}
+
+.reveal h2.author {
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 61.8px
+}
+
+.reveal h3.date {
+  font-size: 1.00em;
+  font-style: italic;
+  text-align: center;
+}
+
+.reveal h2 {
+  font-size: 1.125em;
+  text-align: left;
+  text-transform: none;
+}
+
+.reveal h3 {
+  font-size: 0.9em;
+  text-align: left;
+  text-transform: none;
+}
+
+.reveal p {
+  font-size: 0.75em;
+  text-align: left;
+}
+
+.reveal ul, .reveal ol, .reveal dl {
+  font-size: 0.75em;
+  text-align: left;
+  display: inherit;
+}
+
+.reveal pre code {
+  font-size: 0.75em;
+}

@@ -1,0 +1,8 @@
+"0","exclamation <- rx() %>% "
+"0","  rx_find(value = ""!"") %>% "
+"0","  rx_one_or_more()"
+"0","exclamation"
+"1","[1]"
+"1"," ""(!)+"""
+"1","
+"

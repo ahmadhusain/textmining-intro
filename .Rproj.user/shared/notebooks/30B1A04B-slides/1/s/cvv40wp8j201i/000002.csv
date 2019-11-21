@@ -1,0 +1,8 @@
+"0","bind_rows(top_positive, top_negative) %>% "
+"0","  ggplot(mapping = aes(x = reorder(word, n), y = n)) +"
+"0","  geom_col() +"
+"0","  coord_flip() +"
+"0","  facet_wrap(~airline_sentiment, scales = ""free"") +"
+"0","  theme_minimal() +"
+"0","  labs(x = ""Terms"","
+"0","       y = ""Freq"")"

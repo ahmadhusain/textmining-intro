@@ -1,0 +1,3 @@
+"0","data %>% "
+"0","  select(text, text_clean) %>% "
+"0","  head()"
